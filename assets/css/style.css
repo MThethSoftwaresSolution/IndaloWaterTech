@@ -408,7 +408,7 @@ h6 {
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(55, 136, 154, 0.8);
+  background-color: transparent;
 }
 
 #hero .carousel-container {
@@ -496,7 +496,7 @@ h6 {
 
 #hero .carousel-indicators li.active {
   opacity: 1;
-  background: #5cb874;
+  /*background: #5cb874;*/
 }
 
 #hero .btn-get-started {
@@ -641,8 +641,8 @@ section {
 }
 
 .featured-services .description {
-  line-height: 24px;
-  font-size: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
